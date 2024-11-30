@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+  margin: 0;
+  font-family: Poppins !important;
+  background-color: #343a40 !important;
+  color : whitesmoke !important;
+}
+
+.menus{
+  width: 100%;
+  justify-content: center;
+  gap:15px;
+}
+
+.footer{
+  text-align:center;
+  height:60px;
+  align-content: center;
+  color: black !important;
+}
+
+.heading{
+  text-align: center;
+  box-shadow: 1px; 
+}
+
+.nav-link:hover{
+color: red !important;
+}
+
+.single{
+  border-radius:20px;
+  transition:all 0.3 ease;
+}
+
+.single:hover{
+  background-color:black;
+  border: 3px solid whitesmoke !important;
+  transform:scale(1.02);
+  cursor:pointer;
+}
+.single>img{
+  border-radius:20px;
+}
+.pagination{
+  justify-content: space-evenly;
+}
+
+.heading{
+  color: rgb(223, 216, 216);
+  text-shadow: 4px 4px 4px #171414;
+}
+
+.s1{
+  background-color: #171414;
+  margin: 10px;
+  border-radius:20px;
+}
+
+.s1 img{
+  text-align: center;
+  margin-top:10px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.cast1:hover{
+  background-color: aliceblue;
+  border: 3px solid rgb(240, 239, 239) !important;
+  transform:scale(1.02);
+  cursor:pointer;
+  color: #171414;
+}
