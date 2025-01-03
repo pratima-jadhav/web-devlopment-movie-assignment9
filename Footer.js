@@ -6,7 +6,7 @@ export default function Footer() {
       <div className="footer bg-info-subtle">
         <h5>
           &copy;All rights reserverd to MovieFlix
-          <h6>Created By : Swapnil Thakare</h6>
+          <h6>Created By : Pratima Jadhav</h6>
         </h5>
       </div>
     </>
